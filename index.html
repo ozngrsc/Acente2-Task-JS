@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>BlueStone Design</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-dark bg-dark pt-0 pb-0 ">
+        <div class="container">
+            <div>
+                <a class="navbar-brand border-end pe-3 pt-0 pb-0 fs-6" href="#">India </a>
+                <a class="navbar-brand border-end pe-3 pt-0 pb-0 fs-6" href="#">Europe </a>
+                <a class="navbar-brand fs-6" href="#">USA</a>
+            </div>
+            <div class="d-flex">
+                <div class="text-white d-flex align-items-center ">
+                    <a href="tel:02623246700"><i class="fa-solid fa-phone fa-sm pe-4"></i></a>
+                    <a class="navbar-brand border-end pe-3 pt-0 pb-0  fs-6 d-sm-none d-md-none d-lg-inline" href="">+90
+                        2623246700</a>
+                </div>
+                <div class="text-white d-flex align-items-center  ">
+                    <a href="mailto:info@teknoarge.com"><i class="fa-solid fa-envelope fa-sm pe-4 "></i></a>
+                    <a class="navbar-brand border-end pe-3 pt-0 pb-0  fs-6 d-sm-none d-md-none d-lg-inline"
+                        href="mailto:info@teknoarge.com">
+                        info@teknoarge.com</a>
+                </div>
+                <div>
+                    <a class="navbar-brand" href="https://twitter.com/Acente2"><i
+                            class="fa-brands fa-twitter fa-sm"></i></a>
+                    <a class="navbar-brand" href="https://www.facebook.com/Acente2/"><i
+                            class="fa-brands fa-facebook-f fa-sm"></i></a>
+                    <a class="navbar-brand" href="https://www.youtube.com/channel/UC4aXGbrrR-u5nhiC9iKDB6A"><i
+                            class="fa-brands fa-youtube fa-sm"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Bottom Navbar -->
+    <nav class="navbar-bottom">
+        <a href="#" class="nav-branding w-25 h-25"><img class="w-100 nav-logo" src="/images/logo.jpeg" alt="Logo"></a>
+        <div class="d-flex justify-content-between align-items-center">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Company</a>
+                </li>
+                <li class="dropdown">
+                    <button onclick="dropdownFunction()" class="dropbtn">Services <i
+                            class="fa-solid fa-chevron-down dropbtn"></i></button>
+                    <ul id="myDropdown" class="dropdown-content">
+                        <li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+                        <li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+                        <li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Exhibitions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link our_work">Our Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blogs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Resource</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-primary quote_button" type="submit">Get a Quote</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- Banner -->
+    <div class="row">
+        <!-- Banner Left -->
+        <div
+            class="banner_left col-lg-3 col-md-4 col-sm-12 d-flex justify-content-center align-items-start flex-column py-sm-5">
+            <div class="text-white fw-bold d-flex justify-content-center align-items-start flex-column ms-5">
+                <p class="fs-1">Design. <br> Create. <br> and Build.</p>
+
+            </div>
+            <div class="fs-6 text-white px-5">
+                <p>Exhibition trade stand designers and builders in Europe, UK, and throughout India. With twenty years
+                    of experience in exhibition field and know we started new Start-Up with our strong team.
+                </p>
+            </div>
+            <button type="button"
+                class="banner_left_button btn border-white mt-5 ms-5 d-flex justify-content-center align-items-center color-white text-white">Start
+                Your
+                Project →</button>
+        </div>
+        <!-- Slider -->
+        <div id="carouselExampleIndicators" class="carousel slide col-lg-9 col-md-8 col-sm-12 ps-0" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner w-60 h-40">
+                <div class="carousel-item active
+                ">
+                    <img src="/images/dsgn2.jpg" class=" d-block w-100 slider_image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/dsgn3.jpg" class=" d-block w-100 slider_image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/dsgn1.jpg" class=" d-block w-100 slider_image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/dsgn2.jpg" class=" d-block w-100 slider_image" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/dsgn6.jpg" class=" d-block w-100 slider_image" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Info -->
+    <div class="container">
+        <div class="row py-4 mt-5 pe-5">
+            <div class="col-md-5 col-sm-12 d-flex align-items-center flex-column">
+                <p class="info_title mb-3">BlueStone</p>
+                <p class="fs-3 fw-bold">Design, Create <br> and Build bespoke <br> Exhibition Stall</p>
+            </div>
+            <div class="col-md-7 col-sm-12 pe-5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat.</p>
+                <a href="#" class="text-decoration-none">Read More →</a>
+            </div>
+        </div>
+    </div>
+    <!-- Cards -->
+    <div class="container">
+        <div class="text-center mt-5 mb-4">
+            <h1 class="fw-bold">What We Do</h1>
+            <p>Best Exhibition Stall Designers in India, Europe and Poland</p>
+        </div>
+        <div class="row">
+            <div class="card_item col-lg-6 col-md-12 mb-4 ">
+                <div class="card text-bg-dark">
+                    <div class="card_blur absolute w-100 h-100"></div>
+                    <img src="/images/fair4.png" class="card-img" alt="...">
+                    <div class="card-img-overlay ms-4">
+                        <h3 class="card-title fw-bold">Exhibitions Stall Design & <br> Fabrications</h3>
+                        <a href="#" class="text-white">Know More →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card_item col-lg-6 col-md-12 mb-4 ">
+                <div class="card text-bg-dark">
+                    <div class="card_blur absolute w-100 h-100"></div>
+                    <img src="/images/dsgn1.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay ms-4">
+                        <h3 class="card-title fw-bold">Booth Design & Build</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card_item col-lg-6 col-md-12 mb-4 ">
+                <div class="card text-bg-dark">
+                    <div class="card_blur absolute w-100 h-100"></div>
+                    <img src="/images/digital2.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay ms-4">
+                        <h3 class="card-title fw-bold">Digital Marketing</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="card_item col-lg-6 col-md-12 mb-4 ">
+                <div class="card text-bg-dark">
+                    <div class="card_blur absolute w-100 h-100"></div>
+                    <img src="/images/design.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay ms-4">
+                        <h3 class="card-title fw-bold">Designing & Branding</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript-->
+    <script src="index.js" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
